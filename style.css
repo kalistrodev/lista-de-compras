@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    box-sizing: border-box;
+}
+
+.cabecalho {
+    background-color: #fb7185; /*Cor de fundo*/
+    display: flex; /*Flexbox*/
+    flex-direction: column; /*FLEXBOX: Muda de row para column*/
+    justify-content: center; /*Flexbox*/
+    align-items: center; /*Flexbox*/
+    gap: 16px;
+    padding: 36px 0; /*Espaço no eixo "Y"*/
+}
+
+.titulo {
+    color: #ffff; /*Cor do texto*/
+    font-weight: 800; /*Peso da fonte*/
+    text-align: center; /*Centraliza a caixa de texto*/
+    line-height: 110%; /*Deixa o texto mais colado horizontalmente*/
+}
+
+.textbox {
+    border: 1px solid red;
+}
+
+.textbox input {
+    background: none;
+    border: none;
+}
